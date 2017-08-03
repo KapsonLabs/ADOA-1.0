@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////                                
+                                      FOR WINDOWS USERS
+///////////////////////////////////////////////////////////////////////////////////////////////////
+1. Install the 64-BIT anaconda distribution provided. The distribution installs python 3.6 and a few more required packages to support the python environment.
+
+Anaconda installation requires about 1.9GB free disk space to properly install and the installation roughly takes 20 minutes to complete.
+
+2. Add python to your path variable.... ie Right click (THIS PC) via my computer, and go to properties. Go to environment variables and append to the path your location of anaconda...... Mine for example was C:\Users\ADMIN\Anaconda3.....
+
+3. Test whether python is appended to your environment variables by typing the python command in cmd...... This should start the python interpreter as shown in screenshot1.
+
+4. Run modulebuild.exe. It will help with setting up the required packages to run a test of the system in notebook. Screenshot2 shows output of modulebuild.exe.
+
+5. Ensure you have an active internet connection inorder for you to properly download the modules. The menu in screenshot 3 shows the usage of the command.....
+USAGE.. TYPE [tensorflow] TO install tensorflow on your laptop as shown in screenshot3. Typing a wrong command will cause the command window to close and no modules will be installed.
+
+6. Install the modules inorder of appearance.
+      a) tensorflow: The tensorflow installation takes roughly 10 minutes
+
+      b) Opencv: The cv installation takes quite longer, roughly 30 minutes. But is much easier to set up for linux users...
+
+      c) Others: This installs the other required packages including tqdm, tflearn and jupyter notebook.
+
+7. The installations are finally done........ Time to run the program..... WHOOOOOOHOOOOOOOHOOOOOO.......... Dont forget to check for successful installation of tensorflow and opencv by typing the check command.
+
+8. Finally type the open command , which will start the server and run Jupyter notebook in the same directory. Open the notebook titled "What the front end would look like.". This contains the code that will run and classify input images as either sickle or iron deficient.
+
+9. A testing set folder has been provided for purposes of evaluating the software. To change the testing set, append one of the following (ground truth test, testing set, random) to the "TEST_DIR" path. 
+_____________________________________________________________________________________________________________________________________________________________________
+10. HAVE FUN CLASSIFYING BLOOD CELLS
+_____________________________________________________________________________________________________________________________________________________________________
+
+?????????????????????????????????????????? FOR LINUX USERS ??????????????????????????????????????????????????????????????????????????????????????????????????????
+
+WE ARE THINKING ABOUT YOU....... ALL DAY ALL NIGHT....... WE AINT SLEEPING........ DONT WORRY...... WE GATS YOU..........
